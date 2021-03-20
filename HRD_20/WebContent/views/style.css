@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width:100%;
+	background-color: #0560d0;
+	text-align: center;
+	height: 80px;
+	color:white;
+	line-height: 80px;
+}
+.menu{
+	background-color: #afa4ff;
+	width: 100%;
+	height:30px;
+	line-height:30px;
+	color: white;
+}
+.menu li{
+	width: 12.5%;
+	float:left;
+	text-align: center;
+}
+.menu a{
+	color:white;
+	font-weight: bold;
+}
+section{
+	background-color: #eeeeee;
+	width: 100%;
+	height: 500px;
+}
+.title{
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+}
+p{
+	padding: 5px;
+}
+footer{
+	background-color: #0560d0;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	color:white;
+	bottom: 0;
+	position: relative;
+	line-height: 70px;
+}
+table{
+	width: 50%;
+	margin: 0 auto;
+}
+table td:nth-child(odd) {
+	text-align: center;
+}
